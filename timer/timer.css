@@ -1,0 +1,52 @@
+* {
+	margin:0;
+	padding:0;	
+}
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	background-color: #FF6;
+}
+#wrapper {
+	background-color: #F63;
+}
+
+.label {
+	display: inline-block;
+	margin-right: 0.25em;
+	width: 6em;
+	text-align: center;
+	font-size: 200%;
+}
+#jahre, #monate, #wochen, #tage, #stunden , #minuten, #sekunden{
+	background-color: #FF6;
+	display: inline-block;
+	width: 5em;
+	margin-right: 0.5em;
+	text-align: center;
+	font-size: 200%;
+	margin-left: 0.5em;
+}
+#zeiger1 {
+	background-color: #6CF;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 0px;
+}
+#zeiger2 {
+	background-color: #FC0;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 0px;
+}
+#anzeige {
+	background-color: #9F3;
+	margin-top: 0px;
+	position: relative;
+	top: 0px;
+	text-align: center;
+}
