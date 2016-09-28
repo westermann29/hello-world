@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Timer</title>
+<link href="timer.css" rel="stylesheet" type="text/css" media="screen and (min-width:825px)">
+<link href="timer-800.css" rel="stylesheet" type="text/css" media="screen and (max-width:824px)">
+<style>
+	#zeigerU {padding:0px; text-align:center;position:fixed; top:0px; z-index:50;width:100%;background-color:white;}
+</style>
+<script type="text/javascript" src="timer.js"></script>
+</head>
+
+<body onload="zeige_datum()">
+
+<div id="wrapper">
+<h1 id="zeigerU">Bis Semesterende noch</h1>
+<div id="zeiger1"></div>
+
+<div id="anzeige">
+  <p id="wochen">Wochen</p>
+  <p id="tage">Tage</p>
+  <p id="stunden">Stunden</p>
+  <p id="minuten">Minuten</p>
+  <div class="trenner"></div>
+  <p class="label">Woche(n)</p>
+  <p class="label">Tag(e)</p>
+  <p class="label">Stunde(n)</p>
+  <p class="label">Minute(n)</p>
+</div>
+<div id="zeiger2"></div>
+</div>
+</body>
+</html>
